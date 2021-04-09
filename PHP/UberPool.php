@@ -8,9 +8,9 @@ class UberPool extends car
     public $brand;
     public $model;
 
-    public function UberPool($license, $driver, $brand, $model)
+    public function UberPool($license, $driver, $brand, $model, $passenger)
     {
-        parent::__construct($license, $driver);
+        parent::__construct($license, $driver,$passenger);
         $this->brand = $brand;
         $this->model = $model;
     }

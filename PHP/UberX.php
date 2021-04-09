@@ -7,9 +7,9 @@ class UberX extends Car
     public $brand;
     public $model;
 
-    public function __construct($license, $driver, $brand, $model)
+    public function __construct($license, $driver, $brand, $model, $passenger)
     {
-        parent::__construct($license, $driver);
+        parent::__construct($license, $driver, $passenger);
         $this->brand =  $brand;
         $this->model = $model;
     }
