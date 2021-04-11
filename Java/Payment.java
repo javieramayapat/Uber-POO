@@ -1,5 +1,11 @@
 package Java;
 
 class Payment {
-    Integer id;    
+
+    Integer id;
+
+    public Payment(int id) {
+        this.id = id;
+    }
+
 }
